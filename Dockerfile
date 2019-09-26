@@ -8,6 +8,4 @@ WORKDIR /webapp
 
 ENTRYPOINT ["/webapp/startup.sh"]
 
-VOLUME ["/webapp/extweb"]
-
 EXPOSE 6188
